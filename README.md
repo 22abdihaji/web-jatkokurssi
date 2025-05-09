@@ -1,120 +1,87 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
-</p>
+# 📚 Book Collection Manager - Development Logbook
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## 📌 Project Overview
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+**Objective:** Build a full-stack book collection management system  
+**Duration:** 2 weeks (April 1 - April 14, 2025)  
+**Total Hours Spent:** 45 hours
 
-## Description
+---
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## 🚀 Development Process
 
-## Project setup
+### Week 1: Foundation (20 hours)
 
-```bash
-$ npm install
-```
+| Date     | Time Spent | Tasks Completed                                      | Tools Used                 | Challenges                  |
+|----------|------------|------------------------------------------------------|----------------------------|-----------------------------|
+| April 1  | 4 hours     | - Set up Next.js project<br>- Created basic UI      | Next.js, React, VSCode     | Next.js routing config      |
+| April 3  | 5 hours     | - Add Book form<br>- Setup API routes               | TypeScript, Next API Routes| Form validation             |
+| April 5  | 6 hours     | - Database connection<br>- CRUD operations          | MongoDB, Mongoose          | Connection timeouts         |
+| April 7  | 5 hours     | - Styling with Tailwind<br>- Responsive layout      | Tailwind CSS               | Mobile layout issues        |
 
-## Compile and run the project
+### Week 2: Refinement (25 hours)
 
-```bash
-# development
-$ npm run start
+| Date     | Time Spent | Tasks Completed                                      | Tools Used                 | Breakthroughs               |
+|----------|------------|------------------------------------------------------|----------------------------|-----------------------------|
+| April 8  | 6 hours     | - Search functionality<br>- Filter by category      | React Hooks                | Debounce implementation     |
+| April 10 | 5 hours     | - User authentication<br>- Protected routes         | NextAuth.js                | Session management          |
+| April 12 | 6 hours     | - Testing<br>- Bug fixing                           | Jest, React Testing Library| Async tests                 |
+| April 14 | 8 hours     | - Deployment<br>- Performance optimization          | Vercel, Lighthouse         | Image optimization          |
 
-# watch mode
-$ npm run start:dev
+---
 
-# production mode
-$ npm run start:prod
-```
+## 🛠 Technical Specifications
 
-## Run tests
+### 📦 Technology Stack
 
-```bash
-# unit tests
-$ npm run test
+- **Frontend:** Next.js, React
+- **Styling:** Tailwind CSS
+- **Backend:** API Routes / NestJS (depending on version)
+- **Database:** MongoDB (Mongoose)
 
-# e2e tests
-$ npm run test:e2e
+![Technology Stack Chart](link-to-your-chart-image-if-hosted)
 
-# test coverage
-$ npm run test:cov
-```
+---
 
-## Deployment
+## ✅ Summary
 
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
+**Use Cases Implemented:**  
+✅ User can register/login  
+✅ Add, edit, delete books  
+✅ Write and view reviews  
+✅ Secure routes using JWT/NextAuth  
+✅ Responsive UI with Tailwind  
+✅ Fully deployed on Vercel
 
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
+---
 
-```bash
-$ npm install -g @nestjs/mau
-$ mau deploy
-```
+## 🧠 Reflection
 
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
+This project was developed incrementally following clear milestones. The biggest challenge was synchronizing frontend authentication with backend session logic. Once solved, the integration became seamless.
 
-## Resources
+---
 
-Check out a few resources that may come in handy when working with NestJS:
+## 🌱 Future Improvements
 
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
+- Role-based access (admin/users)
+- Upload book cover images
+- Improve search UX
+- Add backend unit testing
+- Enhance accessibility
 
-## Support
+---
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+## 📈 Work Hours Breakdown
 
-## Stay in touch
+| Week   | Hours |
+|--------|-------|
+| Week 1 | 20 h  |
+| Week 2 | 25 h  |
+| Total  | **45 h** |
 
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+---
 
-## License
+## 🔗 Project Repository
 
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
-# web-development-project
+[GitHub Repo](https://github.com/22abdihaji/web-jatkokurssi)
 
-## Project Overview
-
-This project is a full-stack web application developed as part of the **Web-kehittämisen jatkokurssi**.
-
-The goal is to plan, design, and build a web service with real use cases. The project includes:
-
-- Requirement definition
-- Prototyping
-- Backend + Frontend development
-- Database integration
-- Deployment
-
-## Tech Stack
-
-- **Frontend:** React + Next.js
-- **Backend:** NestJS (Node.js)
-- **Database:** PostgreSQL
-- **Hosting:** Vercel (frontend) & Render (backend)
-
-## Structure
