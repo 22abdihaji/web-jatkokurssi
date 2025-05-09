@@ -1,6 +1,6 @@
-# 📚 Book Collection Manager - Development Logbook
+#  Book Collection Manager - Development Logbook
 
-## 📌 Project Overview
+##  Project Overview
 
 **Objective:** Build a full-stack book collection management system  
 **Duration:** 2 weeks (April 1 - April 14, 2025)  
@@ -8,7 +8,7 @@
 
 ---
 
-## 🚀 Development Process
+##  Development Process
 
 ### Week 1: Foundation (20 hours)
 
@@ -30,9 +30,9 @@
 
 ---
 
-## 🛠 Technical Specifications
+##  Technical Specifications
 
-### 📦 Technology Stack
+###  Technology Stack
 
 - **Frontend:** Next.js, React
 - **Styling:** Tailwind CSS
@@ -55,13 +55,13 @@
 
 ---
 
-## 🧠 Reflection
+##  Reflection
 
 This project was developed incrementally following clear milestones. The biggest challenge was synchronizing frontend authentication with backend session logic. Once solved, the integration became seamless.
 
 ---
 
-## 🌱 Future Improvements
+##  Future Improvements
 
 - Role-based access (admin/users)
 - Upload book cover images
@@ -71,7 +71,7 @@ This project was developed incrementally following clear milestones. The biggest
 
 ---
 
-## 📈 Work Hours Breakdown
+##  Work Hours Breakdown
 
 | Week   | Hours |
 |--------|-------|
@@ -81,7 +81,7 @@ This project was developed incrementally following clear milestones. The biggest
 
 ---
 
-## 🔗 Project Repository
+##  Project Repository
 
 [GitHub Repo](https://github.com/22abdihaji/web-jatkokurssi)
 
